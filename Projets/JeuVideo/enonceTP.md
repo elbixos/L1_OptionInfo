@@ -41,9 +41,12 @@ Si, au terme des 3 séances :
     1.3 Décompressez le dans un répertoire de travail. Ouvrez l'éditeur de texte de votre choix pour visualiser le fichier *06_imageTexte.py* et sauvegardez le sous le nom *baseJeu.py*.
 
     1.4 Ouvrez un terminal et déplacez vous jusqu'à
-    votre répertoire de travail. Lancez le programme avec la commande python baseJeu.py
+    votre répertoire de travail. Lancez le programme avec la commande :
+    ```bash
+    python baseJeu.py
+    ```
 
-    1.4 Si vous voyez apparaître une fenêtre avec
+    1.5 Si vous voyez apparaître une fenêtre avec
     un fond d'herbe et un petit personnage fixe,
     vous avez terminé cette étape. Sinon, appelez
     votre encadrant !
@@ -93,8 +96,6 @@ Si, au terme des 3 séances :
   - Modifiez le code de façon à pouvoir donner une direction initiale à chaque balle : (1,2) pour la balle 1 et (2, -1) pour la seconde balle
 
   - Il faut également qu'elles rebondissent sur les bords de la fenêtre lorsqu'elles les atteignent
-
-La réalisation de toutes ces étapes devrait aller assez vite.
 
 8. Autres étapes possibles : chacune de ces étapes est optionnelle mais rapporte des points. Vous pouvez inventer vos nouvelles étapes vers un jeu vidéo plus joli.
 
