@@ -1,7 +1,7 @@
 ## Projet mini jeu vidéo
 ## Vincent Pagé.
 
-
+### Enoncé
 Ce qu’il vous sera demandé :
 
 A l'issue de ce TP, vous devrez avoir réalisé un programme qui affiche une fenêtre, dans
@@ -11,6 +11,26 @@ fenêtre)
 
 Pas de panique, on va y aller doucement !
 
+### Notation
+
+Notre objectif est que vous appreniez à programmer. Vous pouvez travailler à plusieurs. Néanmoins, recopier le programme d'un autre ne vous apprend rien, il faut également :
+1. comprendre ce qu'il a fait
+2. être capable de le refaire.
+
+Nous sommes à peu près capable d'évaluer pour un étudiant ce qu'il est en mesure de faire seul quand il nous montre un code (il suffit de lui poser des questions sur ce code)
+
+Nous supposerons que vous n'essayerez pas de nous escroquer, cela ne marcherait pas très bien, et serait contre-productif pour vous.
+
+Les indications suivantes portent sur ce que vous seriez capable de faire seul.
+
+Si, au terme des 3 séances :
+
+- vous avez fini l'étape 6, vous aurez autour de 10.
+
+- vous avez fini l'étape 7, vous aurez autour de 12.
+
+
+### Etapes du TP
 
 1. Etape 1 : (5 mn) :
 
@@ -47,21 +67,48 @@ Pas de panique, on va y aller doucement !
 
 4. Etape 4 : (20 mn)
 
-  - Modifiez le code de façon à ce que la balle reste bloquée quand elle arrive en haut de la fenêtre.
-  - Il s'agira sans doute de contrôler  la variable de positionnement de la balle, et de spécifier sa valeur si elle sort de la fenêtre.
+  - Modifiez le code de façon à ce que la balle
+  reste bloquée quand elle arrive en haut de la
+  fenêtre.
+  - Il s'agira sans doute de contrôler  la variable
+  de positionnement de la balle, et de spécifier sa
+  valeur si elle sort de la fenêtre.
 
 5. Etape 5 : (30 mn)
 
   - Modifiez le code de façon à ajouter une seconde balle en x = 50, y = 300. faites la DESCENDRE dans la fenêtre, et bloquez la quand elle arrive EN BAS.
 
-  - Pour la bloquer au bon endroit, il vous manquera peut être une information. Trouvez laquelle et demandez à votre encadrant comment l'obtenir.
+  - Pour la bloquer au bon endroit, il vous manquera
+  peut être une information. Trouvez laquelle et
+  demandez à votre encadrant comment l'obtenir.
 
 6. Etape 6 : (20 mn)
 
-  - Modifiez le code de façon à ce que la première balle reparte vers le bas lorsqu'elle touche le haut de la fenêtre.
+  - Modifiez le code de façon à ce que la première
+  balle reparte vers le bas lorsqu'elle touche le
+  haut de la fenêtre.
 
 7. Etape 7 : (30 mn)
 
   - Modifiez le code de façon à pouvoir donner une direction initiale à chaque balle : (1,2) pour la balle 1 et (2, -1) pour la seconde balle
 
   - Il faut également qu'elles rebondissent sur les bords de la fenêtre lorsqu'elles les atteignent
+
+La réalisation de toutes ces étapes devrait aller assez vite.
+
+8. Autres étapes possibles : chacune de ces étapes est optionnelle mais rapporte des points. Vous pouvez inventer vos nouvelles étapes vers un jeu vidéo plus joli.
+
+  - changer les images du jeu (~1 pt)
+
+  - ajout de musique (~2 pt)
+
+  - Les balles deviennent de plus en plus nombreuses au fur et à mesure du temps. (~5 pt)
+
+  - Possibilité de recommencer la partie. (~3 pt)
+
+  - Possibilité de mettre en pause. (~3 pt)
+
+  - le personnage a des pouvoirs spécifiques quand il prend des bonus. (~5 pt)
+
+  - sauvegarde des meilleurs scores. (~3 pt)
+...

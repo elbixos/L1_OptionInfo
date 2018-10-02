@@ -26,6 +26,6 @@ Nous allons réaliser un petit jeu dans lequel
 
 Pour réaliser ce projet, vous avez à votre disposition :
 - [ce fichier zippé](Sources/tutos.zip) qui contient tous les tutoriels vu en cours.
-- [ce support de cours](Cours/README.md) qui contient tous les explications sur les tutoriels
+- [ce support de cours](Cours/cours.md) qui contient tous les explications sur les tutoriels
 vu en cours et présents dans l'archive ci dessus.
-- [cet énoncé de tp](Cours/TP.md) qui vous propose un cheminement dans la réalisation du projet.
+- [cet énoncé de tp](Cours/enonceTP.md) qui vous propose un cheminement dans la réalisation du projet.
