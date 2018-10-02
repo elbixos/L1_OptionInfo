@@ -15,8 +15,8 @@ Vous trouverez ici :
 
 Les projets à réaliser sont au nombre de 3.
 
-1. [Un mini Jeu vidéo avec interface graphique](JeuVideo/README.md)
+1. [Un mini Jeu vidéo avec interface graphique](Projets/JeuVideo/README.md)
 
-2. [Le jeu des allumettes](JeuDesAllumettes/README.md)
+2. [Le jeu des allumettes](Projets/JeuDesAllumettes/README.md)
 
-3. [Programmation de Robots](Robots/README.md)) (Arduino et/ou Raspberry)
+3. [Programmation de Robots](Projets/Robots/README.md)) (Arduino et/ou Raspberry)
