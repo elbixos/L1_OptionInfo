@@ -1,4 +1,4 @@
 
-# Le cours d'algorithmique
-# Formation d'ingénieur de l'université des Antilles
+# Petit cours d'algorithmique et de python
+
 # Auteur : Vincent Pagé : <vincent.page@univ-antilles.fr>
