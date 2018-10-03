@@ -11,11 +11,15 @@ Plus précisément, les tutoriels fournis fonctionnent avec python 3 mais aussi 
 
 ### Pré-requis :
 
-Je suppose ici que vous savez
-- installer python. Si vous ne savez pas, allez voir [ce lien](../Cours/installPython.md).
-- connaissez les rudiments d'algorithmique et de programmation en python. Si ce n'est pas le cas, vous pouvez suivre[ce mini cours](../../Cours/cours.md). Suivez les sections Intro, Variables, Tests et boucles, cela suffira pour le moment.
-- installer pygame. Si vous ne savez pas, allez voir
-[ce lien](../../Cours/installPygame.md).
+Je suppose ici que vous :
+- avez installé python..
+
+- connaissez les rudiments d'algorithmique et de programmation en python.
+
+- avez installé pygame.
+
+Si l'un de ces points est problématique, allez voir
+[ce lien](../../Cours/README.md).
 
 ### Description du projet :
 
