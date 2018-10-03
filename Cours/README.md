@@ -11,7 +11,7 @@ Vous aurez peut être besoin :
 
 - Apprendre les rudiments d'algorithmique et de programmation en python ?
 
-  - Vous préférez peut être travailler section par section depuis [le sommaire](Cours/99_sommaire.md), consultable en ligne
+  - Suivez [ce cours](Cours/99_sommaire.md), section par section depuis le sommaire.
 
   - Vous pourriez trouver utile de disposer des [fichiers exemples du cours](Sources/index.md)
 
