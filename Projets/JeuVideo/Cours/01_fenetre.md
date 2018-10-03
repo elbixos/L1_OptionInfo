@@ -70,4 +70,4 @@ pygame.quit()
 ```
 Normalement, quand un programme utilisant pygame se termine, il appelle la fonction *quit()* avant de se terminer (cela range bien tout comme il faut).
 
-Voyons donc comment quitter notre programme.
+Vous trouverez ici [le fichier complet](../Sources/01_fenetre.py) de cette étape.
