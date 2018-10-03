@@ -5,7 +5,7 @@
 Comprenons une chose tout d'abord : un programme informatique ne fait qu'une chose : il manipule des variables. Toutes les informations que doit gérer votre programme doivent donc se retrouver dans des variables. Vous en connaissez vraisemblablement quelques types simples de variables :
 - les entiers (int)
 - les nombres à virgules (float)
-- les vrais ou faux (booleen)
+- les vrais ou faux (boolean)
 - les chaînes de caractères (string)
 
 Dans les variables, je stocke des valeurs.
