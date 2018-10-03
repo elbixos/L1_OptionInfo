@@ -1,6 +1,6 @@
 
-# Le cours d'algorithmique
-# Formation d'ingénieur de l'université des Antilles
+# Petit cours d'algorithmique et de python
+
 # Auteur : Vincent Pagé : <vincent.page@univ-antilles.fr>
 
 
@@ -17,13 +17,17 @@ Le dépot dans lequel vous avez trouvé ce document contient également les exem
 ___
 Vous pouvez repartir vers le [Sommaire](99_sommaire.md)
 ___
+
+
 ### Concepts d'algorithmique d'aujourd'hui.
+
 Ceci est ma vision de la programmation actuelle. Tout le monde ne s'y retrouvera peut être pas, mais il me semble que la plupart des développeurs en entreprise seront d'accord avec le constat suivant :
 Programmer (ou coder) fait appel à deux grands capacités :
 - la stratégie
 - la tactique
 
 #### La stratégie
+
 C'est, dans le domaine militaire, ce qui vous fait gagner une guerre (*si vous le faites bien et que vous avez de la chance*). C'est la planification vue de loin.
 
 Les généraux, autour d'une table, décident d'envoyer tel bataillon à gauche, pendant que tel autre bataillon partira à droite pour prendre en sandwich l'armée adverse. Ils peuvent aussi planifier de faire un siège pour affamer l'armée ennemie, et quand ils auront faim, ils attaqueront.
@@ -93,7 +97,7 @@ Voyons donc le minimum de tactique à savoir pour commencer
 Comprenons une chose tout d'abord : un programme informatique ne fait qu'une chose : il manipule des variables. Toutes les informations que doit gérer votre programme doivent donc se retrouver dans des variables. Vous en connaissez vraisemblablement quelques types simples de variables :
 - les entiers (int)
 - les nombres à virgules (float)
-- les vrais ou faux (booleen)
+- les vrais ou faux (boolean)
 - les chaînes de caractères (string)
 
 Dans les variables, je stocke des valeurs.
