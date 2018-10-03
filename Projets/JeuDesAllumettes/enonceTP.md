@@ -1,4 +1,4 @@
-## Enoncé de TP du Projet mini jeu vidéo
+## Enoncé de TP du Projet Jeu des allumettes
 ## Vincent Pagé.
 
 ### Enoncé
