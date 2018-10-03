@@ -2,15 +2,15 @@
 # Le cours d'algorithmique
 # Formation d'ingénieur de l'université des Antilles
 # Auteur : Vincent Pagé : <vincent.page@univ-antilles.fr>
+
+
 ## Introduction
 
-Dans ce cours, nous verrons les rudiments de l'algorithmique pour vos formations (Matériaux et Systèmes énergétiques). Mon objectif est simple : ne pas focaliser sur les détails, mais vous permettre de faire des choses rapidement. Ce document est extrêmement synthétique. Il ne vous dispense pas d'aller en cours ni d'essayer de programmer vous même.
+Dans ce cours, nous verrons les rudiments de l'algorithmique pour vos formations. Mon objectif est simple : ne pas focaliser sur les détails, mais vous permettre de faire des choses rapidement. Ce document est extrêmement synthétique. Il ne vous dispense pas d'aller en cours ni d'essayer de programmer vous même.
 
 Pour plus de détails, vous pouvez me poser des questions et/ou chercher un peu sur le net ou dans des cours plus détaillés. Si vous ne voulez pas chercher, vous trouverez quelques liens vers ce type de ressources [ici](98_liens.md)
 
 Les concepts présentés dans ce cours s'appliquent à la plupart les langages que je connais. Lorsque je devrais faire un vrai programme pour vous présenter quelque chose, je le ferais en **python**.
-
-Installez donc python sur votre machine. Les exemples seront fait pour fonctionner en python 3. Je suis sûr qu'avec l'aide d'internet, vous devriez être en mesure d'installer **python 3** sur votre machine...
 
 Le dépot dans lequel vous avez trouvé ce document contient également les exemples que nous avons vu en cours.
 
@@ -86,7 +86,10 @@ La **stratégie**, est utile pour programmer mais aussi pour la coordination de 
 Ce cours a pour objectif de vous apprendre un peu de **tactique** (les variables, les boucles, les fonctions...) et beaucoup de **stratégie**.
 
 Voyons donc le minimum de tactique à savoir pour commencer
+
+
 ### Les variables
+
 Comprenons une chose tout d'abord : un programme informatique ne fait qu'une chose : il manipule des variables. Toutes les informations que doit gérer votre programme doivent donc se retrouver dans des variables. Vous en connaissez vraisemblablement quelques types simples de variables :
 - les entiers (int)
 - les nombres à virgules (float)
@@ -158,7 +161,10 @@ Vous **devez** être en mesure de faire les exercices suivants :
       - 0 < a < 2
 
       - 2 <= a
+
+
 ### Les boucles *Tant que* (while)
+
 Imaginons que je veuille écrire "bonjour à tous" 10 fois. Nous pouvons le faire en répétant 10 fois la ligne suivante :
 ```python
 print ("bonjour à tous")

@@ -1,4 +1,7 @@
+
+
 ### Les boucles *Tant que* (while)
+
 Imaginons que je veuille écrire "bonjour à tous" 10 fois. Nous pouvons le faire en répétant 10 fois la ligne suivante :
 ```python
 print ("bonjour à tous")

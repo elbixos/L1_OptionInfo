@@ -67,7 +67,10 @@ La **stratégie**, est utile pour programmer mais aussi pour la coordination de 
 Ce cours a pour objectif de vous apprendre un peu de **tactique** (les variables, les boucles, les fonctions...) et beaucoup de **stratégie**.
 
 Voyons donc le minimum de tactique à savoir pour commencer
+
+
 ### Les variables
+
 Comprenons une chose tout d'abord : un programme informatique ne fait qu'une chose : il manipule des variables. Toutes les informations que doit gérer votre programme doivent donc se retrouver dans des variables. Vous en connaissez vraisemblablement quelques types simples de variables :
 - les entiers (int)
 - les nombres à virgules (float)
@@ -139,7 +142,10 @@ Vous **devez** être en mesure de faire les exercices suivants :
       - 0 < a < 2
 
       - 2 <= a
+
+
 ### Les boucles *Tant que* (while)
+
 Imaginons que je veuille écrire "bonjour à tous" 10 fois. Nous pouvons le faire en répétant 10 fois la ligne suivante :
 ```python
 print ("bonjour à tous")
