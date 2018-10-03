@@ -1,6 +1,6 @@
 
 
-### Création de la fenêtre
+### 1. Création de la fenêtre
 
 **Attention** : si vous exécutez ce programme, il va entrer dans une boucle infinie qu'il faudra quitter en appuyant sur Ctrl+C pour le quitter.
 
