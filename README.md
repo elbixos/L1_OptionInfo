@@ -23,7 +23,7 @@ Voici la liste des projets.
 
 2. [Le jeu des allumettes](Projets/JeuDesAllumettes/README.md)
 
-3. [Programmation de Robots](Projets/Robots/README.md)) (Arduino et/ou Raspberry)
+3. [Programmation de Robots](Projets/Robots/README.md) (Arduino et/ou Raspberry)
 
 
 ## Une aide générale
