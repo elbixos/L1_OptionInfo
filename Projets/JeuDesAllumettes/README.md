@@ -15,7 +15,7 @@ avec python 2.7. Je vous recommande d'utiliser **python 3** chez vous.
 Je suppose ici que vous :
 - avez installé python..
 
-- connaissez les rudiments d'algorithmique et de programmation en python.
+- connaissez les rudiments d'algorithmique et de programmation en python. En particulier : les notions de **variable**, de **test conditionnel**, de **boucle** (*for* et *while*) et de **fonction** doivent toutes vous être familières.
 
 Si l'un de ces points est problématique, allez voir
 [ce lien](../../Cours/README.md).
