@@ -77,6 +77,9 @@ Disons que nous voudrons dessiner plus loin notre personnage en *x = 60* et *y =
 rectPerso.x = 60
 rectPerso.y = 80
 ```
+
+Je fais ceci avant le début de ma boucle, ce qui définit la position du personnage au début du jeu.
+
 #### Affichage dans la fenêtre
 
 J'ai une variable contenant l'image (*imagePerso*), une variable contenant la fenêtre (*fenetre*) et une variable contenant la position souhaitée (*rectPerso*).
@@ -104,6 +107,11 @@ Je peux donc dessiner 50 fois sur la version cachée de la fenêtre sans toucher
 
 C'est ce que fait la fonction *display.flip*
 
+**Important** : Ces étapes sont fait dans la boucle *while*
+donc a chaque tour de jeu, je redessine le personnage.
+Comme sa position n'a pas bougé, je le redessine au même endroit.
+
+
 Vous trouverez ici [le fichier complet](../Sources/04_imagePerso.py) de cette étape.
 
 #### Jouons un peu
@@ -111,3 +119,62 @@ Vous trouverez ici [le fichier complet](../Sources/04_imagePerso.py) de cette é
 Vous en savez suffisamment pour faire beaucoup de choses...
 
 ##### Un personnage qui bouge tout seul
+
+Vous savez déja que la position horizontale du personnage est stockée dans la variable *rectPerso.x*
+
+Si j'ajoute cette ligne quelque part dans la boucle while :
+```python
+  rectPerso.x = rectPerso.x + 5
+```
+A chaque tour de boucle, j'augmente la position horizontale de mon personnage de 5.
+
+la partie qui *blite* n'a pas changé. Simplement, je dessine mon personnage a une position différente à chaque fois. Mon personnage bouge tout seul...
+
+Si vous n'aimez pas les "traces" que laisse le personnage, cela sera réglé à l'étape suivante. Vous pouvez la consulter tout de suite ou essayer d'autres choses...
+
+Si vous n'aimez pas voir votre personnage partir vers l'infini (et au-delà), vous réglerez cela au cours du projet...
+
+Que se passe-t-il si vous remplacez ce code par :
+```python
+  rectPerso.x = rectPerso.x - 5
+```
+
+##### Un personnage qui bouge avec le clavier.
+
+Nous avons vu que l'on pouvait savoir si la touche *Escape* est enfoncée dans l'étape 2.
+
+Nous allons nous servir de cela pour déplacer le personnage seulement quand l'utilisateur appuie sur la fleche de droite. Vous devriez déja savoir le faire. Essayez.
+
+**Correction :**
+
+Il suffit en fait de mettre ce code dans le *while*
+```python
+  if (touches[pygame.K_RIGHT])
+    rectPerso.x = rectPerso.x + 5
+```
+
+##### Ajouter une autre image sur l'écran
+
+Disons que l'on veuille ajouter une image de balle (fichier "balle.png") à la position *x=200*, *y=200*
+
+Il suffit de refaire ce que nous avons fait pour le personnage avec les 3 étapes :
+
+1. lecture de l'image de la balle (au dessus du while)
+
+2. création d'un rectangle pour la balle (au dessus du while) et positionnement de ce rectangle.
+
+3. *blit* de l'image dans la fenêtre (dans le while, avant le *display.flip*)
+
+Je vous laisse tester tout cela.
+
+##### Ajouter un autre Personnage sur l'écran
+
+Imaginons que nous voulions placer un second personnage dans la fenêtre. C'est le même problème que ci dessus.
+
+Mais nous avons déja réalisé l'étape 1.
+Nous n'avons pas besoin de relire l'image.
+il nous faut simplement faire :
+
+1. la création du rectangle pour le second personnage et positionnement de ce rectangle.
+
+2. *blit* dans la fenêtre
