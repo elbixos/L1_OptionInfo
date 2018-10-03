@@ -77,6 +77,6 @@ Retenez le nom qui fonctionne pour la suite.
 
 ---
 
-Vous pouvez revenir au [Sommaire](../README.md)
+Vous pouvez revenir au [Sommaire](README.md)
 
 ---

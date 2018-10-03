@@ -46,6 +46,6 @@ Vous pouvez aller jouer avec le projet [Jeu Video](../Projets/JeuVideo/README.md
 
 ---
 
-Vous pouvez revenir au [Sommaire](../README.md)
+Vous pouvez revenir au [Sommaire](README.md)
 
 ---
