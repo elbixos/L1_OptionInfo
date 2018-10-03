@@ -6,8 +6,6 @@
 
 - [Cours 2](02_cours2.md) : les tableaux / Boucles for
 
-- [Cours 3](03_cours3.md) : Le développement de projet
-
 - [Liens utiles](98_liens.md)
 
 
