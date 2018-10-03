@@ -30,9 +30,10 @@ Voici la liste des projets.
 
 Vous aurez peut être besoin :
 
+- d'installer python ?
 
-- d'installer python ? Allez voir [ce lien](Cours/installPython.md).
+- d'installer pygame ?
 
-- d'installer pygame ? Allez voir [ce lien](Cours/installPygame.md).
+- Apprendre les rudiments d'algorithmique et de programmation en python ?
 
-- Apprendre les rudiments d'algorithmique et de programmation en python ? Vous pouvez suivre [ce mini cours](Cours/cours.md).
+Vous pouvez suivre [ce lien](Cours/README.md).
