@@ -1,10 +1,12 @@
-### Cours 3 : Réalisation d'un vrai projet
+## Cours associé au projet Jeu des allumettes
+## Vincent Pagé.
 
-#### Projet : Présentation et Méthodologie
+### Présentation du projet
 
-#### Présentation du projet
 Ici, on s'intéresse au **Jeu des Allumettes**.
+
 - C'est un jeu à deux joueurs qui jouent chacun son tour.
+
 - au départ les allumettes sont disposées comme suit :
 
 |numéro de ligne | allumettes |
@@ -19,7 +21,7 @@ Ici, on s'intéresse au **Jeu des Allumettes**.
 
 Il s'agit pour nous de faire un programme qui permette à deux joueurs humains de jouer sur l'ordinateur.
 
-##### Méthodologie de développement du projet
+### Méthodologie de développement du projet
 
 Dans un tel projet, peut être trop complexe pour vous, il va néanmoins falloir commencer pour avancer. Le plus simple est de définir les grandes lignes du projet (notre stratégie).
 
@@ -29,24 +31,32 @@ Ensuite, nous transformerons ces grandes lignes en un programme principal et cod
 Ici, on se contente de décrire ce qui se passe dans une partie...
 Nous traduirons ces grandes lignes en un programme principal plus tard.
 
-```Markdown
+
 1. Joueur départ : joueur 1
+
 2. initialiser plateau
 
 3. tant qu'il reste au moins une allumette
-  - demander ligne et combien d'allumettes
-  - retirer allumettes
-  - afficher plateau
-  - changer Joueur
+
+  3.1 demander ligne et combien d'allumettes
+
+  3.2 retirer allumettes
+
+  3.3 afficher plateau
+
+  3.4 changer Joueur
 
 4. afficherVainqueur
-```
+
 
 #### Transformation en programme principal.
+
 Pour transformer proprement ces grandes lignes en un programme, je dois savoir quelles variables sont passées à toutes mes petites parties de programme.
 
 La variable la plus importante est sans aucun doute l'état du plateau qui stocke quelles allumettes sont sur quelle ligne.
-Une rapide reflexion montre que la seule information importante est le nombre d'allumettes présent sur chaque ligne. Je peux donc coder ceci avec un tableau de 4 entiers.
+
+Une rapide réflexion montre que la seule information importante est le nombre d'allumettes présent sur chaque ligne. Je peux donc coder ceci avec un tableau de 4 entiers.
+
 Mon initialisation du plateau peut donc s'écrire comme suit :
 
 ```python
@@ -60,18 +70,27 @@ numJoueur = 1
 plateau = [1,3,5,7]
 
 while ( compteAllumettes(plateau) > 0 ) :
+
   numLigne, nbAllu = choisirStrategie(plateau)
+
   retirerAllumettes(plateau, numLigne, nbAllu)
+
   afficherPlateau(plateau)
+
   numJoueur = changerJoueur(numJoueur)
 
 print ("le joueur ", numJoueur, "a gagne")
 ```
 Ce code met en évidence des fonctions :
+
 - *compteAllumettes* qui renvoie le nombre d'allumettes restantes
+
 - *choisirStrategie* qui renvoie le nombre d'allumettes que l'utilisateur veut retirer et le numéro de ligne sur laquelle les retirer.
+
 - *retirerAllumettes* qui retire effectivement ces allumettes.
+
 - *afficherPlateau* qui affiche l'état du plateau actuel.
+
 - *changerJoueur* qui fait la bascule entre joueur 1 et joueur 2.
 
 Un grand intérêt doit être porté aux variables qui sont passées à chaque fonction et à l'enchainement des appels. Par exemple, *numLigne* est le numéro de ligne sur laquel le joueur veut retirer ses allumettes. Il a été choisi dans la fonction *choisirStrategie* et sera réutilisé par *retirerAllumettes*.
@@ -226,3 +245,7 @@ il faudra sans doute modifier la fonction *afficherLigne* et peut être lui pass
 Vous **pourriez** :
 - Essayer de modifier le programme pour que les joueurs manipulent des numéros de ligne allant de 1 à 4 (et pas de 0 à 3). Notre programme, lui, continuera à stocker le nombre d'allumettes dans un tableau indexé de 0 à 3.
 - Essayer de mettre en place la vérification du numéro de ligne et du nombre d'allumettes choisi par le joueur. Si ses choix sont non valides, on lui redemande...
+
+___
+Vous pouvez repartir vers le [Sommaire du projet](../README.md)
+___

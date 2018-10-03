@@ -10,7 +10,4 @@
 - [02_finalTableaux.py](./02_finalTableaux.py)
 - [02_parcoursTableaux.py](./02_parcoursTableaux.py)
 - [02_tableaux.py](./02_tableaux.py)
-- [03_plan.md](./03_plan.md)
-- [03_TraductionPlan.py](./03_TraductionPlan.py)
-- [03_vraiDev.py](./03_vraiDev.py)
 - [index.md](./index.md)

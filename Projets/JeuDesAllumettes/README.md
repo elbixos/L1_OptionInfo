@@ -2,24 +2,33 @@
 ## Vincent Pagé.
 
 Ce document contient l'ensemble des ressources
-nécessaires pour le projet jeu vidéo.
+nécessaires pour le projet **Jeu des allumettes**
 Il devra être réalisé en 3 séances de TP, et du travail personnel chez vous.
 
 Ce jeu est codé en **python**.
 
-Plus précisément, les fichiers fournis fonctionnent avec python 3 mais aussi avec python 2.7. Je vous recommande d'utiliser **python 3** chez vous.
+Plus précisément, les fichiers fournis fonctionnent avec python 3 mais aussi
+avec python 2.7. Je vous recommande d'utiliser **python 3** chez vous.
 
 ### Pré-requis :
 
-Je suppose ici que vous savez
-- installer python. Si vous ne savez pas, allez voir ce lien.
-- connaissez les rudiments d'algorithmique et de programmation en python. Si ce n'est pas le cas, vous trouverez un mini cours ici. Suivez les sections Intro, Variables, Tests et boucles, cela suffira pour le moment.
+Je suppose ici que vous :
+- avez installé python..
+
+- connaissez les rudiments d'algorithmique et de programmation en python.
+
+Si l'un de ces points est problématique, allez voir
+[ce lien](../../Cours/README.md).
+
+### Description du projet et ressources utiles
+
+- [le cours associé au projet](Cours/cours.md) vous donne accès à :
+
+  - la description du projet,
+
+  - au support du cours que vous avez suivi
+
+  - aux fichiers source associés à ce cours
 
 
-### Description du projet :
-
-TODO
-
-### Ressources utiles
-
-TODO
+- Voici enfin le lien vers l'[énoncé du TP](enonceTP.md).
