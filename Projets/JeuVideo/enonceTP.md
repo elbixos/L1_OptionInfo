@@ -103,13 +103,13 @@ Si, au terme des 3 séances :
 
   - ajout de musique (~2 pt)
 
-  - Les balles deviennent de plus en plus nombreuses au fur et à mesure du temps. (~5 pt)
+  - Une balle supplémentaire apparait toutes les 5 secondes. (~5 pt)
 
   - Possibilité de recommencer la partie. (~3 pt)
 
   - Possibilité de mettre en pause. (~3 pt)
 
-  - le personnage a des pouvoirs spécifiques quand il prend des bonus. (~5 pt)
+  - le personnage a des pouvoirs spécifiques quand il prend des bonus qui apparaissent à l'écran. (~5 pt)
 
   - sauvegarde des meilleurs scores. (~3 pt)
 ...
