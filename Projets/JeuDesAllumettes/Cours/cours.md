@@ -21,6 +21,8 @@ Ici, on s'intéresse au **Jeu des Allumettes**.
 
 Il s'agit pour nous de faire un programme qui permette à deux joueurs humains de jouer sur l'ordinateur.
 
+Ci dessous, le support du cours que vous avez eu a propos de ce projet.
+
 ### Méthodologie de développement du projet
 
 Dans un tel projet, peut être trop complexe pour vous, il va néanmoins falloir commencer pour avancer. Le plus simple est de définir les grandes lignes du projet (notre stratégie).
@@ -62,6 +64,9 @@ Mon initialisation du plateau peut donc s'écrire comme suit :
 ```python
 plateau = [1,3,5,7]
 ```
+
+Pour la gestion du joueur courant, mon programme doit juste mémoriser le numéro du joueur à chaque instant. Une variable entière nommée *numJoueur* qui prendra la valeur *1* ou *2* fera le travail.
+
 Ensuite, je vais pour chaque action de mon plan, supposer l'existence d'une fonction qui fait ce qu'on lui demande et répond ce dont j'ai besoin.
 Le code complet donnerait ceci :
 
@@ -108,7 +113,7 @@ Ci nous faisons ce travail préalable, nous pouvons maintenant lancer une équip
 
 Dans la pratique, cette approche est trop stricte. Sur cet exemple, je suis capable de définir une stratégie générale sans trop de difficulté, mais pour des projets très complexes, c'est parfois délicat.
 
-**Ce que nous avons fait a surtout une valeur pédagogique** : Comprendre cette notion d'enchainement d'actions et de passage de variables. Oublions donc un peu ce que nous venons de faire pour repartir de l'étape des grandes lignes.
+**Ce que nous avons fait a surtout une valeur pédagogique** : Comprendre cette notion d’enchaînement d'actions et de passage de variables. Oublions donc un peu ce que nous venons de faire pour repartir de l'étape des grandes lignes.
 
 #### Méthodologie de développement réel
 Un développeur un peu chevronné fait souvent le travail d'élaboration des grandes lignes dans sa tête. Si vous n'y arrivez pas, posez le sur un papier (ou dans un fichier).
@@ -148,6 +153,7 @@ plateau = [1,3,5,7]
 afficherPlateau(plateau)
 ```
 Je peux améliorer mon affichage en créant une petite fonction responsable de l'affichage d'une ligne. Je lui donne un nombre entier et elle affiche autant de **I** que ce nombre avant de sauter à la ligne. Si je la code, je la teste dans la foulée.
+
 ```python
 def afficherLigne(n) :
     for i in range(n):
@@ -158,7 +164,9 @@ afficherLigne(4)
 afficherLigne(2)
 afficherLigne(-1)
 ```
+
 Je peux chainer les deux fonctions : mon programme principal appelle la fonction *afficherPlateau* qui, pour chaque ligne, appelle la fonction *afficherLigne*. Et je teste le tout.
+
 ```python
 def afficherLigne(n) :
     for i in range(n):
@@ -172,15 +180,23 @@ def afficherPlateau(tab) :
 plateau = [1,3,5,7]
 afficherPlateau(plateau)
 ```
+
 L'étape suivante consisterait :
+
 1. à être capable de choisir un nombre représentant un numéro de ligne et un nombre d'allumettes...
+
 2. retirer effectivement ces allumettes.
+
 3. toutes les autres actions définies dans les grandes lignes
+
 4. le bouclage sur un nouveau tour
 
 Nous procèderons ainsi de proche en proche avec à chaque étape :
+
 - un programme qui fonctionne
+
 - un programme qui a été testé
+
 - un programme qui s'approche de plus en plus de l'objectif
 
 En cours, nous sommes allés un peu plus loin que ceci. Le résultat obtenu en cours est [ici](../Sources/03_vraiDev.py). Cela inclue la fonction qui demande au joueur quelle ligne / combien d'allumettes il veut retirer et la fonction qui retire effectivement ces allumettes du plateau.
@@ -191,13 +207,16 @@ Pour comprendre ces parties, ce n'est pas compliqué, il vous manque simplement 
 2. On transforme cette chaine de charactères en entier avec la fonction *int*
 
 ce qui donne ceci pour afficher le carré d'un entier choisi par l'utilisateur :
+
 ```python
 print ("entrez un entier")
 chaine = input()
 monEntier = int(chaine)
 print (monEntier**2)
 ```
+
 ou en version courte
+
 ```python
 print ("entrez un entier")
 monEntier = int(input())
@@ -215,19 +234,26 @@ On y trouvera en particulier :
 
 ### Exercices à faire
 Vous **devez** être en mesure de faire les choses suivantes :
+
 - Essayer de ré-écrire les grandes lignes sans regarder le modèle.
+
 - refaire la traduction en un programme principal en comprenant pourquoi tout s'enchaine comme cela.
 
 Mais vous ne pourrez pas le tester... vu que les fonctions manqueront.
 
 Ensuite, vous **devez** être en mesure de :
+
 - écrire tout seul la fonction *afficherLigne* et la tester
+
 - écrire tout seul la fonction *afficherPlateau* et la tester
+
 - écrire tout seul les fonctions contenues dans [ce fichier](../Sources/03_vraiDev.py) et les tester
 
 Vous **devriez** essayer de faire les choses suivantes :
 - ajouter toutes les fonctions utiles dans une version simple (par exemple, on ne vérifie pas si le numéro de ligne et le nombre d'allumettes choisis par le joueur sont valide)
+
 - ajouter la boucle sur les tours de jeu.
+
 - modifier la fonction d'affichage du plateau pour qu'elle affiche le numéro de ligne avant les allumettes, comme suit :
 ```
 0: I
