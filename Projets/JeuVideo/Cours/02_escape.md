@@ -147,4 +147,4 @@ for event in pygame.event.get(): # parcours de la liste des evenements recus
         continuer = 0
 ```
 
-Vous trouverez ici [le fichier complet](../Sources/02_escape.py) de cette étape.
+Comme d'habitude, vous trouverez ici [le fichier complet](../Sources/02_escape.py) de cette étape.
