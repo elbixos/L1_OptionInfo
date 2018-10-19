@@ -4,10 +4,10 @@
 ### Enoncé
 Ce qu’il vous sera demandé :
 
-A l'issue de ce TP, vous devrez avoir réalisé un programme qui affiche une fenêtre, dans
+A l'issue de ce PROJET, vous devrez avoir réalisé un programme qui affiche une fenêtre, dans
 laquelle s'affiche un personnage (que vous contrôlerez avec les touches directionnelles du
 clavier) ainsi que 2 balles (qui se déplaceront en ligne droite et rebondiront sur les bords de la
-fenêtre)
+fenêtre). Le score sera déterminé par le temps qui passe et s’affichera dans la fenêtre.
 
 Pas de panique, on va y aller doucement !
 
@@ -29,6 +29,33 @@ Si, au terme des 3 séances :
 
 - vous avez fini l'étape 7, vous aurez autour de 12.
 
+Ce qui précède n'est vrai que pour 2018-2019. Les nouvelles règles seront les suivantes :
+
+#### Avancée du Projet
+Pour vous aider a réussir ce projet, voici quelques pistes sur la temporalité et votre notation.
+
+##### TP1 et travail personnel.
+
+Pour le début du TP2, pour avoir 10, vous devriez avoir :
+
+- (3 pts) Un personnage dont les déplacements sont controlés au clavier
+
+- (2 pts) La position du personnage est bloquée dans l'écran (il ne peut pas sortir de l'écran)
+
+- (2 pts) Une balle monte et reste bloquée en haut.
+
+- (3 pts) Une balle descend et reste bloquée en bas.
+
+##### TP2 et travail personnel.
+
+Pour le début du TP3, pour avoir 10, vous devriez avoir :
+
+- (3 pts) Deux balles qui se déplacent suivant une ligne et rebondissent sur les bords de la fenetre.
+
+- (7 pts) une détection de collision entre chaque balle et le joueur (voir la fonction *coliderect*)
+
+##### TP3
+Pendant le TP 3, pour avoir 10, vous mettez en place le score.
 
 ### Etapes du TP
 
@@ -97,7 +124,10 @@ Si, au terme des 3 séances :
 
   - Il faut également qu'elles rebondissent sur les bords de la fenêtre lorsqu'elles les atteignent
 
-8. Autres étapes possibles : chacune de ces étapes est optionnelle mais rapporte des points. Vous pouvez inventer vos nouvelles étapes vers un jeu vidéo plus joli.
+8. Etape 8
+  - mettez en place le score. Le score est un nombre qui augmente avec le temps qui passe. Il doit s'afficher dans la fenêtre du jeu.
+
+9. Autres étapes possibles : chacune de ces étapes est optionnelle mais rapporte des points. Vous pouvez inventer vos nouvelles étapes vers un jeu vidéo plus joli.
 
   - changer les images du jeu (~1 pt)
 
