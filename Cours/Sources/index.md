@@ -10,4 +10,5 @@
 - [02_finalTableaux.py](./02_finalTableaux.py)
 - [02_parcoursTableaux.py](./02_parcoursTableaux.py)
 - [02_tableaux.py](./02_tableaux.py)
+- [03_gestionNotes.py](./03_gestionNotes.py)
 - [index.md](./index.md)

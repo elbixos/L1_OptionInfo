@@ -714,6 +714,16 @@ On y trouvera en particulier :
 - [Les parcours de tableaux](../Sources/02_parcoursTableaux.py)
 - [Les exemples de calcul](../Sources/02_calculsTableaux.py)
 - [La version finale](../Sources/02_finalTableaux.py)
+## Le programme de gestion des notes
+
+Pour mieux vous expliquer ce que j'entendais par
+Stratégie et Tactique, nous avons vu en cours un exemple
+de programme en charge de la gestion des notes de la promotion.
+
+Je vais essayer sous peu de vous détailler un peu ce programme,
+mais pour le moment, vous trouverez au moins les sources de ce programme : [03_gestionNotes.py](Sources/03_01_gestionNotes.py)
+
+Bonne lecture
 ## Quelques liens externes
 
 Le problème quand on enseigne l'informatique (ou quoi que ce soit d'autre), est d'adapter son discours a son public. Ce que je propose dans ce cours est un kit de survie pour l'algorithmique et la programmation utile pour tout ingénieur.
