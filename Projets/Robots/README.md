@@ -5,13 +5,7 @@ Ce document contient l'ensemble des ressources
 nécessaires pour le projet Robots
 Il devra être réalisé en 3 séances de TP.
 
-### Pré-requis :
-TO DO
+L'ensemble du cours est à cette adresse :
+[https://elbixos.github.io/M1EN_Domotique/](https://elbixos.github.io/M1EN_Domotique/)
 
-### Description du projet :
-
-TO DO
-
-### Ressources utiles
-
-TO DO
+L'énoncé des TP est à venir.
